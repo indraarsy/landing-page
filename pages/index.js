@@ -3,9 +3,9 @@ import Home from '../components/home'
 
 export default function IndexPage() {
   return (
-    <div className="lg:container lg:mx-auto">
+    <div className="lg:container lg:mx-auto relative">
+      <Nav />
       <div className="h-screen bg-gray-200">
-        <Nav />
         <Home />
       </div>
     </div>

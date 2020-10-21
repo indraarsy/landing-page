@@ -8,7 +8,7 @@ const links = [
 
 export default function Nav() {
   return (
-    <nav className="flex items-center bg-white p-3 flex-wrap justify-center">
+    <nav className="flex items-center bg-white p-3 flex-wrap justify-center h-auto absolute w-full">
       <a href="#" className="p-2 inline-flex items-center">
         <img src="/logo.png" className="w-12"></img>
         {/* <span className="text-xl text-dark font-bold uppercase tracking-wide">
