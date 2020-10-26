@@ -18,6 +18,7 @@
 /* Your own custom utilities */
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
-#tsparticles {
-    z-index: -10;
+.main-container {
+    height: 100vh !important;
+    height: calc(100vh - 56px);
 }

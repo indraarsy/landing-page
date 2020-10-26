@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Nav from '../components/nav'
 import Home from '../components/home'
 import Particles from "react-tsparticles";
@@ -5,7 +6,12 @@ import Particles from "react-tsparticles";
 
 export default function IndexPage() {
   return (
-    <div className="lg:container lg:mx-auto relative h-screen">
+    <div className="lg:container lg:mx-auto relative main-container">
+      <Head>
+        <title>Indra Arsy Kaloka</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </Head>
       <Particles
         id="tsparticles"
         className="absolute h-screen w-full bg-opacity-25"
