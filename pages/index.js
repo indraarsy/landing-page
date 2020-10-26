@@ -1,13 +1,12 @@
 import Nav from '../components/nav'
 import Home from '../components/home'
+// import Particles from "react-tsparticles";
 
 export default function IndexPage() {
   return (
-    <div className="lg:container lg:mx-auto relative">
+    <div className="lg:container lg:mx-auto relative h-screen">
       <Nav />
-      <div className="h-screen bg-gray-200">
-        <Home />
-      </div>
+      <Home />
     </div>
   )
 }
