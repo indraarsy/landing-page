@@ -12,7 +12,7 @@ export default function Home() {
     return (
         <div className="container m-auto flex h-full mx-auto items-center relative">
             <div className="grid grid-cols-3 md:auto-cols-min">
-                <div className="text-gray-700 px-4 py-2 m-2 my-6 col-span-3 md:col-span-2 p-auto md:pt-40">
+                <div className="text-gray-700 px-4 py-2 m-2 my-6 col-span-3 md:col-span-2 p-auto lg:pt-40">
                     <div>
                         <span className="md:text-5xl text-3xl font-thin font-serif">Hi! <span className="font-serif font-bold">Indra Arsy Kaloka</span> here.</span>
                         <br></br>

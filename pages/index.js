@@ -3,10 +3,9 @@ import Nav from '../components/nav'
 import Home from '../components/home'
 import Particles from "react-tsparticles";
 
-
 export default function IndexPage() {
   return (
-    <div className="lg:container lg:mx-auto relative main-container">
+    <div className="lg:container lg:mx-auto relative mobile">
       <Head>
         <title>Indra Arsy Kaloka</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -14,7 +13,7 @@ export default function IndexPage() {
       </Head>
       <Particles
         id="tsparticles"
-        className="absolute h-screen w-full bg-opacity-25"
+        className="absolute mobile w-full bg-opacity-25"
         options={{
           background: {
             color: {
