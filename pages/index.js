@@ -2,10 +2,14 @@ import Head from 'next/head'
 import Nav from '../components/nav'
 import Home from '../components/home'
 import Particles from "react-tsparticles";
+import { useMediaQuery } from 'react-responsive'
 
 export default function IndexPage() {
+  const isTabletOrMobileDevice = useMediaQuery({
+    query: '(max-device-width: 1224px)'
+  })
   return (
-    <div className="lg:container lg:mx-auto relative mobile">
+    <div className={(isTabletOrMobileDevice == true) ? 'mobile ' : 'h-screen ' + "lg:container lg:mx-auto relative"}>
       <Head>
         <title>Indra Arsy Kaloka</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -95,6 +99,6 @@ export default function IndexPage() {
       />
       <Nav />
       <Home />
-    </div>
+    </div >
   )
 }

@@ -39,7 +39,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="text-gray-700 text-center px-4 py-2 m-2 col-span-3 md:col-span-1 hidden md:block">
-                    <img src="/me.jpg" className="rounded-xl"></img>
+                    <img src="/me.jpg" className="rounded-xl w-4/5 m-auto h-auto"></img>
                     {/* <span className="text-6xl">ini foto</span> */}
                     <div className="absolute bottom-0 mb-8 right-0">
                         <a className="font-serif" href="mailto:indraarsykaloka@gmail.com">indraarsykaloka@gmail.com</a>
