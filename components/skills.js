@@ -5,9 +5,8 @@ import { SiTailwindcss, SiPhp, SiJavascript, SiLaravel } from "react-icons/si";
 export default function Skills() {
     return (
         <div className="container flex mx-auto h-screen">
-            {/* Header */}
             <div className="my-auto w-full px-4 m-2">
-                <div className="mb-32">
+                <div className="mb-16 md:mb-32">
                     <span className="font-serif md:text-5xl text-3xl font-bold">
                         Skills
                     </span>
@@ -34,7 +33,7 @@ export default function Skills() {
                         <div className="col-span-2 md:col-span-1">
                             <SiTailwindcss />
                             <span className="font-serif text-md md:text-xl">
-                                Tailwind CSS
+                                Tailwind
                             </span>
                         </div>
                         <div className="col-span-2 md:col-span-1">
