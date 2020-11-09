@@ -20,7 +20,7 @@ export default function IndexPage() {
                 </Head>
                 <Particles
                     id="tsparticles"
-                    className="absolute mobile w-full bg-opacity-25"
+                    className="absolute mobile w-full"
                     options={{
                         background: {
                             color: {
@@ -31,10 +31,6 @@ export default function IndexPage() {
                         interactivity: {
                             detectsOn: "window",
                             events: {
-                                onClick: {
-                                    enable: true,
-                                    mode: "push",
-                                },
                                 onHover: {
                                     enable: true,
                                     mode: "repulse",
@@ -49,7 +45,7 @@ export default function IndexPage() {
                                     size: 40,
                                 },
                                 push: {
-                                    quantity: 4,
+                                    quantity: 1,
                                 },
                                 repulse: {
                                     distance: 100,
@@ -84,7 +80,7 @@ export default function IndexPage() {
                                     enable: true,
                                     value_area: 800,
                                 },
-                                value: 25,
+                                value: 40,
                             },
                             opacity: {
                                 value: 0.5,
