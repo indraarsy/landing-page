@@ -1,7 +1,7 @@
 export default function Project() {
     return (
         <div className="container flex mx-auto h-screen">
-            <div className="my-auto w-full px-4 m-2">
+            <div className="my-auto pt-20 w-full px-4 m-2">
                 <div className="mb-8 md:mb-32">
                     <span className="font-serif md:text-5xl text-3xl font-bold">
                         Projects

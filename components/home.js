@@ -62,7 +62,6 @@ export default function Home() {
                         src="/me.jpg"
                         className="rounded-xl w-4/5 m-auto h-auto"
                     ></img>
-                    {/* <span className="text-6xl">ini foto</span> */}
                     <div className="absolute bottom-0 mb-8 right-0">
                         <a
                             className="font-serif"

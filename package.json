@@ -7,7 +7,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "framer-motion": "^2.9.4",
     "next": "^10.0.1",
+    "nprogress": "^0.2.0",
     "react": "^16.13.1",
     "react-animejs": "^0.5.4",
     "react-dom": "^16.13.1",
