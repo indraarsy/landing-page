@@ -6,14 +6,14 @@ import { SiTailwindcss, SiPhp, SiJavascript, SiLaravel } from "react-icons/si";
 class Skills extends Component {
     render() {
         return (
-            <div className="container flex mx-auto h-screen">
-                <div className="my-auto w-full px-4 m-2">
-                    <div className="mb-16 md:mb-32">
+            <div className="container flex mx-auto pt-24 mobile">
+                <div className="w-full px-4 m-2">
+                    <div>
                         <span className="font-serif md:text-5xl text-3xl font-bold">
                             Skills
                         </span>
                     </div>
-                    <div className="grid grid-cols-4 md:grid-cols-3 gap-10">
+                    <div className="grid grid-cols-4 md:grid-cols-3 gap-10 pt-8 md:pt-20">
                         <IconContext.Provider
                             value={{
                                 className:

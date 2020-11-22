@@ -41,7 +41,7 @@ class Nav extends Component {
                             >
                                 <Link
                                     href={href}
-                                    className="font-serif"
+                                    className="font-serif "
                                     data-ref={label}
                                 >
                                     <a>{label}</a>
